@@ -6,6 +6,7 @@ on:
   schedule:
     - cron: '0 20 * * 3'
 
+
 jobs:
   ibm-cloud-restart:
     runs-on: ubuntu-latest
